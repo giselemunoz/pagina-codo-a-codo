@@ -24,7 +24,7 @@ function calcularTotal() {
 
     document.getElementById('cantTotal').innerHTML = "Total a pagar : " + " $" + total;
 }
-function borrar() {
+function borra() {
     document.getElementById('myForm').reset();
     document.getElementById('cantTotal').innerHTML = "Total a Pagar: $";
 }
